@@ -61,14 +61,19 @@ body {
     flex-direction: column;
     align-items: flex-end;
     padding: 15px;
+    height: 80px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .previous-operand {
-
+    height: 40px;
+    color: #2200ff;
 }
 
 .current-operand {
-
+    height: 40px;
+    color: #000000;
 }
 
 .buttons {
